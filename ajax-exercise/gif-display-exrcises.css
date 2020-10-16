@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#delete-gifs {
+    background-color: red;
+    color: white;
+}
+
+#gif-displays .gifs{
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+#gif-displays {
+    display: flex;
+    flex-wrap: wrap;
+}

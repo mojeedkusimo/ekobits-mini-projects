@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 30px 0px;
+}
+#pending-todos h1, #completed-todos h1 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.pending-todo span {
+    margin-right: 30px;
+}
+p {
+    color: red;
+    font-style: italic;
+}
+
+#completed-todos span {
+    color: green;
+    text-decoration: line-through;
+}
+
+#pending-todos span {
+    color: brown;
+}
+.delete-all {
+    background-color: red;
+    color: white;
+}
+
+.listed-todos span {
+    margin-right: 20px;
+}
